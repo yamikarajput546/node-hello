@@ -4,6 +4,7 @@ jobs:
   build:
     docker:
       - image: cimg/node:14.10.1 # the primary container, where your job's commands are run
+run
         auth:
           username: yamikarajputd
           password: 8hX**cjd-JL$hPQ  # context / project UI env-var reference
