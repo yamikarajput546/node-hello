@@ -9,4 +9,4 @@ jobs:
       - checkout # check out the code in the project directory
       - run: echo "hello world"
       - run: npm pack
-      - run: npm start
+      - run: npm test
