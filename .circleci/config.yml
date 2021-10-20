@@ -4,10 +4,7 @@ jobs:
   build:
     docker:
       - image: cimg/node:14.10.1 # the primary container, where your job's commands are run
-
-        auth:
-          username: yamikarajputd
-          password: $8hX**cjd-JL$hPQ  
+  
     steps:
       - checkout # check out the code in the project directory
       - run: echo "hello world"
